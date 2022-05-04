@@ -1,4 +1,4 @@
-alert(`Please only view this page on a computer it have not been optimized for phones. Thanks - Ruan`)
+//alert(`Please only view this page on a computer it have not been optimized for phones. Thanks - Ruan`)
 function openPage(pageName,elmnt,color) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
