@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+}
+.div{
+    display: inline-block;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-weight: 400;
+    max-width: 300px;
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.516);
+  }
+.div {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: auto;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(249, 249, 243, 0.786);
+    height: 505px;
+    width: 200px;
+    color: #04284a;
+    font-weight: 400;
+    font-family: "Haarlemmer MT Std";
+    font-size: 30px;
+    padding: 5px;
+    line-height: 1.2em;
+    text-align: left;
+  }
+  h4{
+      font-size: 14px;
+      text-align: left;
+      font-style: italic;
+      margin-top: -10px;
+  }
+  a{
+      text-decoration: none;
+  }
+  .p{
+    font-size: 20px;
+    line-height: 1.8em;
+    font-family: lemonde-journal,serif;
+    letter-spacing: .02em;
+    margin-bottom: 40px;
+    color: #4b535d;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+   
+  }
+  .para{
+    display: inline-block;
+    max-width: 720px;
+    order: 2;
+    width: 100%;
+    padding: 50px;
+}
+body{
+    font-size: 100%;
+    line-height: 1.5;
+    letter-spacing: .02em;
+    color: #412c26;
+    background-color: rgb(241 245 249);
+    -webkit-font-smoothing: antialiased;
+}
+.paraf{
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    padding: 0 30px;
+    order: 1;
+    margin-bottom: 20px;
+    color: black;
+    margin-top: 80px;
+}
+.par{
+    display: block;
+    position: relative;
+    margin: 0 auto 20px;
+    padding: 0 30px;
+    flex-direction: column;
+    content: '';
+    clear: both;
+}
+  
+  /* Style tab links */
+  .tablink {
+    background-color: #555;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    display: none;
+    padding: 0px 0px;
+    height: 100%;
+  }
+  
+  #Home {background-color: rgb(241 245 249);}
+  #News {background-color: green;}
+  #Contact {background-color: blue;}
+  #About {background-color: orange;}
