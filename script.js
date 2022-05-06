@@ -15,3 +15,7 @@ function openPage(pageName,elmnt,color) {
   
   // Get the element with id="defaultOpen" and click on it
   document.getElementById("defaultOpen").click();
+
+  window.onscroll = function() {myFunction()};
+
+  window.onscroll = function() {myFunction()};

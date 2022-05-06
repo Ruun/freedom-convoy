@@ -99,7 +99,7 @@ body{
   
   /* Style tab links */
   .tablink {
-    background-color: #555;
+    background-color: rgba(55, 0, 255, 0.638);
     float: left;
     border: none;
     outline: none;
@@ -107,6 +107,7 @@ body{
     padding: 14px 16px;
     font-size: 17px;
     width: 25%;
+
   }
   
   .tablink:hover {
