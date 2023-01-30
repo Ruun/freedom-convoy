@@ -1,2 +1,2 @@
 # freedom-convoy
-https://isruan.github.io/freedom-convoy/
+https://ruun.github.io/freedom-convoy/
